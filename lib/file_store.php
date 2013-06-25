@@ -11,6 +11,9 @@ class FileDb {
 		global $conf;
 		
 		$this->db_file = $conf['db_dir'] . 'data.db';
+		if (!realpath($this->db_file)) {
+			$this->db_file = ROOT_DIR . '/' . $conf['db_dir'] . 'data.db';
+		}
 	}
 
 	public function open() {
