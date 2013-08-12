@@ -1,0 +1,28 @@
+;
+; Configuration file for quickshare
+;
+
+
+; the maximum lifespan of a file can stay. in seconds.
+; if a file is older then the specified duration, it will be 
+; removed.
+file_max_lifespan = 86400
+
+; maximum file size, in bytes, which a file is allowed to upload.
+max_file_size = 52428800
+
+
+
+;;
+;; Advanced configuration
+;;
+
+; the data directory
+;data_dir = data/
+
+; the directory which stores the uploaded file.
+;upload_dir = data/uploads/
+
+; the directory which stores database
+;db_dir = data/db/
+

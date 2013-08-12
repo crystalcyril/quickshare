@@ -1,5 +1,7 @@
 <?php
+
 define('ROOT_DIR', dirname(__FILE__));
+define('DS', '/');
 
 require_once('conf/conf.php');
 require_once('lib/util.php');
